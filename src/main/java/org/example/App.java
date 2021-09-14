@@ -1,7 +1,7 @@
 package org.example;
 
 /*
- *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  UCF COP3330 Fall 2021 Assignment 6 Solution
  *  Copyright 2021 Daniel Ragusa
  */
 
@@ -27,12 +27,7 @@ public class App
         int Retire_Age=Num_2-Num_1;
         int Current_Year=Calendar.getInstance().get(Calendar.YEAR);
 
-
-
         System.out.print("You have "+(Retire_Age)+ " years left until you can retire."+"\n"+"It's "+(Current_Year)+" so you can retire in " +(Current_Year+(Num_2-Num_1))+".");
-
-
-
 
     }
 }
